@@ -1,0 +1,226 @@
+/*Navbar*/
+
+.navbar{
+  background-color: #79cbb8;
+}
+.navbar-nav .nav-link{
+  color: #500472;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #79cbb8;
+}
+.nav-item .nav-link{
+  color: #500472;
+}
+footer .text-center{
+  color: #500472;
+}
+
+/*Forms*/
+.form h3{
+  text-align: center;
+  color: #71aea0;
+}
+
+.mb-3 .form-label{
+  color: #500472;
+}
+
+.form button{
+  background-color: #79cbb8;
+  border-color: #79cbb8;
+}
+
+.form button:hover{
+  background-color: #71aea0;
+  border-color: #71aea0;
+}
+
+
+/*Bannières*/
+#ban1 .banner{
+  height: 500px;
+}
+
+#ban1 .banner h1{
+  color: #500472;
+  display: flex;
+  justify-content: center;
+}
+
+#ban1 .banner .btn{
+  background-color: #79cbb8;
+  border-color: #79cbb8;
+}
+
+#ban1 .banner .btn:hover{
+  background-color: #71aea0;
+  border-color: #71aea0;  
+}
+
+#ban2 .banner{
+  height: 300px;
+}
+
+#ban2 .banner h1{
+  color: #500472;
+  display: flex;
+  justify-content: center;
+}
+
+/*Cards*/
+
+#events-cards h5{
+  color:#500472;
+  text-align: center;
+}
+
+#events-cards p{
+  color: #79cbb8;
+  text-align: justify;
+}
+
+#participants-cards .name{
+  color: #500472;
+}
+
+#participants-cards .mail{
+  color:#71aea0;
+}
+
+#cities-cards .card-title{
+  color: #500472;
+}
+
+#cities-cards .card-text{
+  color: #71aea0;
+}
+
+/*Molécules*/
+
+#event-card h5{
+  color:#500472;
+  text-align: center;
+}
+
+#event-card p{
+  color: #79cbb8;
+  text-align: justify;
+}
+
+#event-card .card-footer{
+  text-align: left;
+}
+
+#participant-card .name{
+  color: #500472;
+}
+
+#participant-card .mail{
+  color:#71aea0;
+}
+
+#city-card .card-title{
+  color: #500472;
+}
+
+#city-card .card-text{
+  color: #71aea0;
+}
+
+/*Coms*/
+
+.coms h6{
+  font-size: large;
+}
+
+.mr-2{
+  color: #500472;
+  font-weight: bold;
+}
+
+.coms .btn-comment .btn{
+  background-color: #79cbb8;
+  border-color: #79cbb8;
+}
+
+.coms .btn-comment .btn:hover{
+  background-color: #71aea0;
+  border-color: #71aea0;  
+}
+
+/*Event_page*/
+.event-page .left img{
+  border-radius: 5px;
+}
+
+.event-page h1{
+  color: #500472;
+  text-align: center;
+  margin: 20px;
+}
+
+.event-page h2{
+  color: #71aea0;
+  font-style: italic;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.event-page h3{
+  margin-bottom: 20px;
+}
+
+.event-page h5{
+  color: #500472;
+}
+
+.event-page .btn{
+  background-color: #79cbb8;
+  border-color: #79cbb8;
+}
+
+.event-page .btn:hover{
+  background-color: #71aea0;
+  border-color: #71aea0;  
+}
+
+/*Element*/
+
+#element{
+  margin-top: 40px;
+}
+
+#element h1{
+  color: #500472;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#element h3{
+  color: #71aea0;
+  text-align: justify;
+  padding: 20px 0;
+}
+
+#element h5{
+  text-align: justify;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

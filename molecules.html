@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Cartes</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+<!--Affichage des évènements sur la page d'accueil-->
+    <section id="event-card">
+      <br>
+      <h1 style="text-align: center">Molécule évènement</h1>
+      <br>
+        <div class="container col text-center">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="Image à ajouter">
+            <div class="card-body">
+              <h5 class="card-title">Titre de l'évènement</h5>
+              <p class="card-text">Description de l'évènement</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Date et heure de publication</small>
+            </div>
+          </div>
+        </section>
+
+  <!--Affichage du profil d'un utilisateur-->
+
+  <section id="participant-card" class="container">
+    <br>
+    <h1 style="text-align: center">Profil participant</h1>
+    <br>
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+      <h6 class="border-bottom border-gray pb-2 mb-0">Participant</h6>
+      <div class="media text-muted pt-3">
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="name text-gray-dark">Prénom et nom de l'utilisateur</strong>
+            <a href="#"><button type="button" class="btn btn-light">Voir le profil</button></a>
+          </div>
+          <span class="mail d-block">Adresse email du participant</span>
+        </div>
+      </div>
+    </section>
+
+<!--Affichage des villes où se déroulent des évènements-->
+  <section id="city-card" class="container">
+    <br>
+    <h1 style="text-align: center">Cartes des villes où se déroulent des évènements</h1>
+    <br>
+    <div class="card-group">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="Photo de la ville">
+        <div class="card-body">
+          <h5 class="card-title">Nom de la ville</h5>
+          <p class="card-text">Petite description ou texte concernant la ville</p>
+        </div>
+      </div>
+  </section>
+  <br>
+
+<!--Affichage d'un commentaire-->
+  <div class="container">
+    <br>
+    <h1 style="text-align: center">Affichage d'un commentaire</h1>
+    <br>
+  <div class="mt-2">
+    <div class="d-flex flex-row p-3">
+      <img src="" width="40" height="40" class="rounded-circle mr-3">
+      <div class="w-100">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-row align-items-center">
+              <span class="mr-2">Nom utilisateur 1</span>
+            </div>
+            <small style="font-style: italic;">Date du post</small>
+      </div>
+      <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+  </div>
+</div>
